@@ -7,15 +7,14 @@
     "github": "github",
     "Instagram": "https://www.instagram.com/talha._.gohar/"
   },
-  "email no.1#": "tg154isgreat@gmail.com",
-  "email no.2#": "talhaz.goharz@gmail.com",
-  "email no.3#": "Talhaz.Goharz@proton.me",
+  "email_no_1": "tg154isgreat@gmail.com",
+  "email_no_2": "talhaz.goharz@gmail.com",
+  "email_no_3": "Talhaz.Goharz@proton.me",
   "ps1_hostname": "ADMINISTRATOR",
   "ps1_username": "visitor",
   "repo": "https://github.com/TG154/LiveTerm",
   "resume_url": "https://github.com/TG154/LiveTerm/blob/cd2139cea6afb7b9a21dd586e2a13d84a822c678/Talha_Gohar_Resume.pdf",
-
-"gruvbox": {
+  "gruvbox": {
     "light": {
       "background": "#FBF1C9",
       "foreground": "#3C3836",
