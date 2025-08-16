@@ -45,8 +45,21 @@ export const resume = async (args: string[]): Promise<string> => {
 
 // Contact
 export const email = async (args: string[]): Promise<string> => {
-  window.open(`mailto:${config.email}`);
-  return `Opening mailto:${config.email}...`;
+  if (args[0] === "help") {
+    return `Available emails:
+1 - ${config.email_no_1}
+2 - ${config.email_no_2}
+3 - ${config.email_no_3}
+Usage: type 'email' or 'email [1|2|3]'`;
+  }
+
+  let selected = config.email_no_1; // default
+
+  if (args[0] === "2") selected = config.email_no_2;
+  if (args[0] === "3") selected = config.email_no_3;
+
+  window.open(`mailto:${selected}`);
+  return `Opening mailto:${selected}...`;
 };
 
 export const github = async (args: string[]): Promise<string> => {
