@@ -14,7 +14,7 @@ _______________________ .________   _____    sumfetch: summary display
                                              CONTACT 
                                              <u><a href="mailto:${config.email_no_1}" target="_blank">${config.email_no_1}</a></u>
                                              <u><a href="https://github.com/${config.social.github}" target="_blank">github.com/${config.social.github}</a></u>
-                                             <u><a href="https://instagram.com/${config.social.Instagram}" target="_blank">instagram.com/${config.social.Instagram}</a></u>
+                                             <u><a href="https://instagram.com/${config.social.instagram}" target="_blank">instagram.com/${config.social.instagram}</a></u>
 `;
   } else {
     return `
