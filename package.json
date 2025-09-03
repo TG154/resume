@@ -16,9 +16,15 @@
   },
   "dependencies": {
     "axios": "^1.11.0",
+<<<<<<< HEAD
     "next": "^15.4.6",
     "react": "18.1.0",
     "react-dom": "18.1.0",
+=======
+    "next": "^15.5.2",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+>>>>>>> 0448ef0 (Updated config and sumfetch (emails, social links, etc.)and theme)
     "react-icons": "^4.3.1"
   },
   "devDependencies": {

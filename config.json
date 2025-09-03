@@ -1,20 +1,20 @@
 {
-  "readmeUrl": "https://raw.githubusercontent.com/cveinnt/cveinnt/master/README.md",
-  "title": "LiveTerm",
+  "readmeUrl": "https://raw.githubusercontent.com/TG154/resume/refs/heads/main/README.md",
+  "title": "Talha/Tg154's Resume",
   "name": "Talha Gohar",
   "ascii": "TG_154",
   "social": {
-    "github": "TG154",
-    "instagram": "talha._.gohar"
+    "github": "https://github.com/TG154",
+    "Instagram": "https://www.instagram.com/talha._.gohar/"
   },
-  "email_no_1": "tg154isgreat@gmail.com",
-  "email_no_2": "talhaz.goharz@gmail.com",
-  "email_no_3": "Talhaz.Goharz@proton.me",
-  "ps1_hostname": "ADMINISTRATOR",
-  "ps1_username": "visitor",
-  "repo": "https://github.com/TG154/LiveTerm",
-  "resume_url": "/Talha_Gohar_Resume.pdf",
-  "gruvbox": {
+  "email": "tg154isgreat@gmail.com",
+  "email_2": "talhaz.goharz@gmail.com",
+  "email_3": "talhaz.goharz@proton.me",
+  "ps1_hostname": "ADMISNISTRATOR",
+  "ps1_username": "user",
+  "repo": "https://github.com/TG154/resume",
+  "resume_url": "https://github.com/TG154/resume/blob/main/Talha_Gohar_Resume.pdf",
+  "colors": {
     "light": {
       "background": "#FBF1C9",
       "foreground": "#3C3836",

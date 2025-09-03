@@ -69,9 +69,16 @@ export const github = async (args: string[]): Promise<string> => {
   return 'Opening github...';
 };
 
+<<<<<<< HEAD
 export const instagram = async (args: string[]): Promise<string> => {
   window.open(`${config.social.instagram}`);
   return 'Opening instagram...';
+=======
+export const Instagram = async (args: string[]): Promise<string> => {
+  window.open(`https://www.Instagram.com/in/${config.social.Instagram}/`);
+
+  return 'Opening Instagram...';
+>>>>>>> 0448ef0 (Updated config and sumfetch (emails, social links, etc.)and theme)
 };
 
 // Search
@@ -114,7 +121,7 @@ directories`;
 
 export const cd = async (args: string[]): Promise<string> => {
   return `unfortunately, i cannot afford more directories.
-if you want to help, you can type 'donate'.`;
+if you want to help, you can type 'sudo'.`;
 };
 
 export const date = async (args: string[]): Promise<string> => {
@@ -145,6 +152,7 @@ export const sudo = async (args?: string[]): Promise<string> => {
 // Banner
 export const banner = (args?: string[]): string => {
   return `
+<<<<<<< HEAD
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX+;;;;;;;;;;;;;;;;;;;;xXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 XX&XXXXXXXXXXXXXXX$XXXXXXXXXXx;;;;;;;;;;+xX$$$Xx+;;;;;;;;;;xXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX$XXX
 XX&XXXXXXXXXXXXXXX$XXXXXXX+;;;;;;;X$$$$$$$$$$$$$$$$$$$$x;;;;;;;XXXXXXXXXXXXXXXX$XXXXXXXXXXXXXXXX$XXX
@@ -200,6 +208,17 @@ $&$$$$$$X;;;;;;;;;X&&&&&&&&&&&&&&X+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&$x;;;;
 $$$$;;;;;;;;;$&&&&&&&&&&&&&&&&&&&&&x+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&$$$&x;;;;;;;;;;x$$$$$$$
 ;;;;;;;;X&&&&&&&&&&&&&&&&&&&&&&&&&&&&$;$&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&$$$$$$$$$$X;;;;;;;;$$$$
 ;;;;&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&$;+$&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&$$$$$$$$$$$$$X..:;++xX
+=======
+ ███████████   █████████  ████  ██████████ █████ █████ 
+░█░░░███░░░█  ███░░░░░███░░███ ░███░░░░░░█░░███ ░░███  
+░   ░███  ░  ███     ░░░  ░███ ░███     ░  ░███  ░███ █
+    ░███    ░███          ░███ ░█████████  ░███████████
+    ░███    ░███    █████ ░███ ░░░░░░░░███ ░░░░░░░███░█
+    ░███    ░░███  ░░███  ░███  ███   ░███       ░███░ 
+    █████    ░░█████████  █████░░████████        █████ 
+   ░░░░░      ░░░░░░░░░  ░░░░░  ░░░░░░░░        ░░░░░  
+
+>>>>>>> 0448ef0 (Updated config and sumfetch (emails, social links, etc.)and theme)
 Type 'help' to see the list of available commands.
 Type 'sumfetch' to display summary.
 Type 'repo' or click <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.repo}" target="_blank">here</a></u> for the Github repository.
